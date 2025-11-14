@@ -7,7 +7,40 @@ Prayer Time is a modern and responsive web application that displays accurate Is
 `npm` (Node Package Manager) is used to install and manage external libraries such as:
 
 - **Axios** → sending API calls  
-- **Bootstrap** → responsive UI framework  
+- **Bootstrap** → responsive UI framework
+- ✨ Features
+
+🌙 Displays accurate prayer times
+
+⚡ Real-time updates using an external API
+
+📱 Fully responsive (mobile + desktop)
+
+🎨 Clean Islamic-inspired design
+
+🌍 Supports multiple cities
+
+🔧 Easy to modify and customize
+
+🛠️ Technologies Used
+
+HTML5
+
+CSS3
+
+JavaScript
+
+Axios
+
+Bootstrap
+
+📘 API Configuration
+
+You can adjust API requests inside: script/PrayerAPI.js
+
+👨‍💻 Developer
+
+Made with ❤️ by Soheib — a legendary Algerian développeur, cyber security engineer, and bodybuilding enjoyer.
 
 The project does NOT include the `node_modules` folder. Instead, npm automatically installs the needed libraries using:
 
@@ -58,37 +91,3 @@ prayer-time/
 │   
 │  
 └── README.md
-
-✨ Features
-
-🌙 Displays accurate prayer times
-
-⚡ Real-time updates using an external API
-
-📱 Fully responsive (mobile + desktop)
-
-🎨 Clean Islamic-inspired design
-
-🌍 Supports multiple cities
-
-🔧 Easy to modify and customize
-
-🛠️ Technologies Used
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Axios
-
-Bootstrap
-
-📘 API Configuration
-
-You can adjust API requests inside: script/PrayerAPI.js
-
-👨‍💻 Developer
-
-Made with ❤️ by Soheib — a legendary Algerian développeur, cyber security engineer, and bodybuilding enjoyer.
