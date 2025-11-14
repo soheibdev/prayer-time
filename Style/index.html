@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prayer time</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/10073/10073969.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="/assets/framework/axios/node_modules/axios/dist/axios.js"></script>
+    
+
+</head>
+<body>
+    <div class="container  hhh">
+       <div class="main-content  col-12 col-md-6">
+        <div class="header-content">
+           <div class="prayer-time">
+              <h1>التاريخ</h1>
+              <p>03-09-2026</p>
+        </div>
+        <div class="location">
+               <h1>المدينة</h1>
+               <select class="form-select" id="select-option"  aria-label="Default select example" style="backdrop-filter: blur(20px)">
+                <option value="" disabled selected hidden id="Default-select">
+                  Select a city
+               </option>
+               </select>
+        </div>
+        </div>
+        <hr style="color: rgb(255, 255, 255); font-size: 2px;">
+        <div class="prayer-main mt-4 mb-3" style="display: flex; justify-content: center;flex-direction: column;">
+           <div class=" prayer-content col-12 col-md-12">
+              <p>الفجر</p>
+              <p id="prayer-time-fadjer"></p>
+           </div>
+           <div class=" prayer-content col-12 col-md-12">
+              <p>الشروق</p>
+              <p id="prayer-time-chorok"></p>
+           </div>
+           <div class="prayer-content col-12 col-md-12">
+              <p>الضهر</p>
+              <p id="prayer-time-dohor"></p>
+           </div>
+           <div class="prayer-content col-12 col-md-12">
+              <p>العصر</p>
+              <p id="prayer-time-asr"></p>
+           </div>
+           <div class="prayer-content col-12 col-md-12">
+              <p>المغرب</p>
+              <p id="prayer-time-maghreb"></p>
+           </div>
+           <div class="prayer-content col-12 col-md-12">
+              <p>العشاء</p>
+              <p id="prayer-time-aicha"></p>
+           </div>
+        </div>
+      </div>
+   </div>
+   <p class="quran-verse">
+   ﴿إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَوْقُوتًا﴾
+   </p>
+
+</div>
+
+<script src="/script/city.js"></script>
+<script src="/script/PrayerAPI.js"></script>   
+<script src="/script/cityenfrancais.js"></script>
+<script src="/script/fetchAPI.JS"></script>
+</body>
+</html>

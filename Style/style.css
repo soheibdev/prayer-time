@@ -1,0 +1,111 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+   }
+
+    body {
+      background-image: url("/assets/img/background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+    }
+     .main-content{
+      min-height: 30px;
+       backdrop-filter: blur(20px);
+       border: 1px solid white;
+       border-radius: 20px;
+       margin-top: 60px;
+      
+     }
+     .hhh{
+      display: flex;
+      justify-content: center;
+     }
+     .location,.prayer-time{
+      direction: rtl;
+     }
+     .header-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 70px;
+     }
+     .prayer-content{
+       border: 1px solid rgb(255, 255, 255);
+       margin-bottom: 10px;
+       width: 400px;
+       margin:  auto;
+       margin-bottom: 15px;
+     }
+     .prayer-content{
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-top:6px;
+      box-shadow: 0 4px 4px rgba(212, 212, 212, 0.25),
+                  0 2px 2px rgba(255, 255, 255, 0.897);
+      transition: all 0.3s ease; /* Smooth animation */
+     }
+     .prayer-content:hover{
+         box-shadow: 0 15px 30px rgba(212, 212, 212, 0.35),
+              0 10px 10px rgba(255, 255, 255, 0.95);
+        transform: translateY(-5px); /* subtle lift on hover */
+     }
+     .prayer-content>p{
+      color: white;
+      font-size: 20px;
+      font-weight: bolder;
+     }
+     .prayer-time>h1,p{
+       color: white;
+     }
+     .location>h1{
+       color: white;
+     }
+     .header-content{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 150px;
+     }
+     #city{
+       width: 70px;
+       backdrop-filter: blur(20px);
+       background-color: transparent;
+     }
+     .quran-verse {
+      font-family: 'Reem Kufi', sans-serif;
+      font-size: 2rem;
+      color: #b08b31; /* elegant gold tone */
+      background: linear-gradient(145deg, #faf9f7, #f0e8d8);
+
+      text-align: center;
+      direction: rtl;
+      margin: 40px 0;
+      box-shadow: 0 6px 10px rgba(212, 212, 212, 0.25),
+                  0 3px 6px rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      padding: 20px;
+      background: #fff;
+      transition: all 0.3s ease;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+            }
+
+      .quran-verse:hover {
+      box-shadow: 0 15px 30px rgba(212, 212, 212, 0.35),
+                  0 10px 10px rgba(255, 255, 255, 0.95);
+      transform: translateY(-5px);
+      }
+
+ @media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position:  center;
+  }
+}
